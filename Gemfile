@@ -6,6 +6,8 @@ git_source(:github) do |repo_name|
 end
 #twitter-bootstrap
 gem 'bootstrap', '~> 4.0.0.beta2.1'
+#simple_form gem
+gem 'simple_form'
 #devise gem for authentication of users
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
