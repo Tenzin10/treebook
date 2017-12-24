@@ -10,7 +10,8 @@ class User < ApplicationRecord
         validates :profile_name, presence: true, 
         			uniqueness: true,
         			format: {
-        				with: /a-zA-Z0-9_-/,
+        				with: /^[a-zA-Z0-9_-]+$/,
+                :multiline => true,
         				message: 'must be formatted correctly.'
         			} 
 end
