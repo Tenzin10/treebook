@@ -14,4 +14,12 @@ class User < ApplicationRecord
                 :multiline => true,
         				message: 'must be formatted correctly.'
         			} 
+
+
+              def gravatar_url
+                stripped_email = email.strip
+                downcased_email = stripped_email.downcase
+                hashh = Digest::MD5.hexdigest(downcased_email)
+                "http://gravatar.com/avatar/#{hashh}"  
+              end
 end
