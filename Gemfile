@@ -8,6 +8,8 @@ end
 gem 'bootstrap', '~> 4.0.0.beta2.1'
 #simple_form gem
 gem 'simple_form'
+#for controller testing
+gem 'rails-controller-testing'
 #devise gem for authentication of users
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

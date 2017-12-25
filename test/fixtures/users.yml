@@ -17,3 +17,10 @@ tenzin:
   profile_name: "CHOLO"
   email: "something@somewhere.com"
   encrypted_password: "password"
+
+jason:
+  first_name: "jason"
+  last_name: "sipher"
+  profile_name: "JASON"
+  email: "jason@somewhere.com"
+  encrypted_password: "password"
